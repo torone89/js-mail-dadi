@@ -12,8 +12,10 @@ let accessibilita
 
 // seleziono tutti gli elementi contenuti in email"
 
-if (email >= email.length) {
+for (let i = 0; i < email.length; i++) {
     accessibilita = "Benvenuto nella tua email, accesso consentito"
+    console.log(email[i])
 }
-else { accessibilita = "Mi dispiace email non valida, accesso negato" }
-console.log(accessibilita)
+// else { accessibilita = "Mi dispiace email non valida, accesso negato" }
+
+
