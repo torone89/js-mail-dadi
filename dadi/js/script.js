@@ -43,7 +43,7 @@ genera.addEventListener('click', function () {
     else if (utente < intelligenzaArtificiale) {
         risultato = "hai perso";
     } else {
-        risultato = alert("TEMPI SUPPLEMENTARI, Ritira i dadi")
+        alert("TEMPI SUPPLEMENTARI, Ritira i dadi")
     }
     // genera.innerText = risultato
     console.log(risultato)
