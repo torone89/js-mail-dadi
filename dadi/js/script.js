@@ -25,10 +25,10 @@ console.log(genera)
 genera.addEventListener('click', function () {
 
     const utente = Math.round(Math.random() * 5 + 1);
-    utenterisultato.innerText = "Hai tirato il dado è uscito " + utente
+    utenterisultato.innerText = "Hai fatto " + utente
 
     const intelligenzaArtificiale = Math.round(Math.random() * 5 + 1);
-    risultatopc.innerText = "L'IA tirato il dado è uscito " + intelligenzaArtificiale
+    risultatopc.innerText = "Il banco ha fatto " + intelligenzaArtificiale
 
     console.log(utente, intelligenzaArtificiale)
 
@@ -38,10 +38,10 @@ genera.addEventListener('click', function () {
 
     // CALCOLO I RISULTATI
     if (utente > intelligenzaArtificiale) {
-        risultato = "hai vinto"
+        risultato = "Complimenti hai vinto"
     }
     else if (utente < intelligenzaArtificiale) {
-        risultato = "hai perso";
+        risultato = "Mi dispiace hai perso";
     } else {
         alert("TEMPI SUPPLEMENTARI, Ritira i dadi")
     }

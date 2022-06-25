@@ -2,7 +2,7 @@
 /* GENERIC */
 /* *************************/
 
-.container {
+/* .container {
     background-color: aqua;
     height: 800px;
 
@@ -21,4 +21,49 @@
 .row .row>[class^='col'] {
     background-color: orange;
 
+} */
+
+body {
+    background-color: brown;
+}
+
+
+
+
+/* MAIN */
+.title {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+#jumbotron {
+    background-image: url(../img/casino.jpeg);
+    background-position: center top;
+    background-size: cover;
+    padding: 200px 20px;
+    margin-bottom: 30px;
+}
+
+
+#dado {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: royalblue;
+    box-shadow: 10px 10px #888888;
+    height: 300px;
+    width: 300px;
+}
+
+#dado-btn {
+    padding: 30px 10px;
+
+
+}
+
+.container {
+    margin-bottom: 20px;
 }
