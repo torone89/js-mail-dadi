@@ -25,10 +25,10 @@ console.log(genera)
 genera.addEventListener('click', function () {
 
     const utente = Math.round(Math.random() * 5 + 1);
-    utenterisultato.innerText = "Hai fatto " + utente
+    utenterisultato.innerHTML = `<img class="img-fluid" src="img/${utente}.png" alt="E'uscito-${utente}"<img>`
 
     const intelligenzaArtificiale = Math.round(Math.random() * 5 + 1);
-    risultatopc.innerText = "Il banco ha fatto " + intelligenzaArtificiale
+    risultatopc.innerHTML = `<img class="img-fluid" src="img/${intelligenzaArtificiale}.png" alt="E'uscito-${intelligenzaArtificiale}"<img>`
 
     console.log(utente, intelligenzaArtificiale)
 

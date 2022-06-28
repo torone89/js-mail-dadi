@@ -2,26 +2,7 @@
 /* GENERIC */
 /* *************************/
 
-/* .container {
-    background-color: aqua;
-    height: 800px;
 
-}
-
-.row {
-    border: 2px dashed yellow;
-}
-
-.row>[class^='col'] {
-    min-height: 100px;
-    background-color: blanchedalmond;
-    border: 1px gray solid;
-}
-
-.row .row>[class^='col'] {
-    background-color: orange;
-
-} */
 
 body {
     background-color: brown;
@@ -45,13 +26,13 @@ body {
     background-position: center top;
     background-size: cover;
     padding: 200px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
 
 
 #dado {
-    border: 2px black solid;
-    border-radius: 10px;
+
+    border-radius: 33px;
     background-color: royalblue;
     box-shadow: 10px 10px #888888;
     height: 300px;
@@ -66,4 +47,8 @@ body {
 
 .container {
     margin-bottom: 20px;
+}
+
+img {
+    display: block;
 }
